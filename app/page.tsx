@@ -1,12 +1,13 @@
-import { Room } from "./Room";
+"use client";
+
+import { useEffect, useState } from "react";
 import { CollaborativeApp } from "./CollaborativeApp";
+import Live from "@/components/cursors/Live";
 
 export default function Page() {
   return (
     <div>
-      <h1 className="text-xl bg-cyan-100 w-[120px] h-[120px] flex flex-col justify-center items-center border-4 border-black-100 border-slate-100 rounded-[10px]">
-        hello world
-      </h1>
+      <Live />
     </div>
   );
 }
