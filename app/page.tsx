@@ -1,5 +1,5 @@
 "use client";
-// new feature branch to new feat branch
+// new any to any
 import { useEffect, useState } from "react";
 import { CollaborativeApp } from "./CollaborativeApp";
 import Live from "@/components/cursors/Live";
